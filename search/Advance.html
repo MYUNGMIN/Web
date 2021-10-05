@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="mystyles.css">
+        <style>
+            .smll{
+                position: absolute;
+                padding: 4px 28px 0 30px;
+            }
+            #smal{
+                width: 130px;
+                height: 35px;
+            }
+            #part{
+                border-bottom: 1px solid #3c4043;
+            }
+            .h3{
+                text-align: right;
+                margin-top: 20px;
+                margin-bottom: 100px;
+                margin-right: : 100px;
+
+            }
+            .appbar{
+                color: #f28b82;
+                font-size: 20px;
+                margin: 25px 35px;
+            }
+            .adv{
+                max-width: 1140px;
+                min-width: 200px;
+                width: 96%;
+                margin: 40px 2% 0 45px;
+            }
+            .ser{
+                width: 100%;
+                clear: both;
+            }
+            .ser2{
+                clear: both;
+            }
+            .ser3{
+                float: left;
+                min-width: 167px;
+                width: 16%;
+                height: 42px;
+                font-size: 15px;
+                line-height: 16px;
+                color: white;
+            }
+            .ser4{
+                float: left;
+                min-width: 167px;
+                min-height: 41px;
+                width: 50%;
+                line-height: 16px;
+                color: white;
+                padding-right: 16px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="h3">
+            <a href="image.html">Image</a> 
+            <a href="index.html">Search</a> 
+            <div class="smll">
+                <a href="index.html">
+                    <img id="smal" src="googlelogo_light_color_92x30dp.png">
+                </a>
+            </div>
+        </div>
+        <div class="appbar">
+            <label style="margin-left: 10px;">Advanced Search</label>
+        </div>
+        <div id="part"></div>
+        <div class="adv"> 
+            <form action="https://google.com/search">
+                <div class="ser">
+                    <div class="ser2">
+                        <div class="ser3">
+                            all these words
+                        </div>
+                        <div class="ser4">                            
+                            <input type="text" name="q">
+                        </div>
+                    </div>
+                    <div class="ser2">
+                        <div class="ser3">
+                            this exact word or phrase 
+                        </div>
+                        <div class="ser4">
+                            <input type="text" name="as_epq">
+                        </div>
+                    </div>    
+                    <div class="ser2">
+                        <div class="ser3">
+                            any of these words 
+                        </div>
+                        <div class="ser4">                            
+                            <input type="text" name="as_oq">
+                        </div>
+                    </div>    
+                    <div class="ser2">
+                        <div class="ser3">
+                            none of these words 
+                        </div>
+                        <div class="ser4">                            
+                            <input type="text" name="as_eq">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input class ="s" type="submit" value="Advance Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
